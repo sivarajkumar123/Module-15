@@ -18,16 +18,20 @@ To write a Python program to build and evaluate the given Expression tree.
 6. **End the program.**
 
 ---
-
-## PROGRAM:
+## Program
 
 ```
-WRITE YOUR CODE
+from binarytree import build
+
+l=["*","+","-",9,3,8,4]
+bt=build(l)
+print(bt.inorder)
+print(bt.postorder)
 ```
 
-## OUTPUT:
-```
-```
+## OUTPUT
+![Screenshot 2025-05-05 010329](https://github.com/user-attachments/assets/5849de8f-be57-4566-82db-4f6e5379dbc9)
 
-## RESULT:
+## RESULT
+Thus the program succesffuly completed the Build an Expression Tree and Print Inorder and Postorder Traversals and executrd successfully.
 
